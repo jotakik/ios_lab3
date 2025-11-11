@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8BA7ABC12EC3B96E00571F50 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7ABC02EC3B96400571F50 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8B001F592EBF3FAF0006CE7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		8B001F4B2EBF3FAC0006CE7E /* Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B001F582EBF3FAF0006CE7E /* Lab3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B001F622EBF3FAF0006CE7E /* Lab3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA7ABC02EC3B96400571F50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		8B001F422EBF3FAC0006CE7E = {
 			isa = PBXGroup;
 			children = (
+				8BA7ABC02EC3B96400571F50 /* README.md */,
 				8B001F4D2EBF3FAC0006CE7E /* Lab3 */,
 				8B001F5B2EBF3FAF0006CE7E /* Lab3Tests */,
 				8B001F652EBF3FAF0006CE7E /* Lab3UITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA7ABC12EC3B96E00571F50 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
